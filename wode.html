@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/wode.css" rel="stylesheet" />
+		<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav home-nav">
+		<h1 class="mui-title">我的</h1>
+			
+		</header>
+		<div class="wode">
+			<div class="touxiang"><img src="images/touxiang.png"></div>
+			<h3>古龙先生</h3>
+			<p>20岁&nbsp;|&nbsp;深圳南山区<p>
+		</div>
+		<ul class="mui-table-view mui-grid-view mui-grid-9 box">
+		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" id="kuan">
+		    <a href="#">
+		        <span class="mui-icon ">20</span>
+		        <div class="mui-media-body">申请记录</div>
+		    </a>
+		</li>
+		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" id="kuan">
+		    <a href="#">
+		        <span class="mui-icon "><span>5</span></span>
+		        <div class="mui-media-body">我的收藏</div>
+		    </a>
+		</li>
+		<li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3" id="kuan">
+		    <a href="#">
+		        <span class="mui-icon ">369</span>
+		        <div class="mui-media-body">浏览记录</div>
+		    </a>
+		</li>
+		    </ul>
+		    
+		<ul class="mui-table-view"> 
+        <li class="mui-table-view-cell ">
+            <a class="mui-navigate-right" href="#"><i class="fa fa-file-text-o fa-fw fa-lg"></i>优化简历</a>
+        </li>
+        <li class="mui-table-view-cell ">
+            <a class="mui-navigate-right" href="#"><i class="fa fa-mortar-board fa-fw fa-lg"></i>面试辅导</a>
+        </li>
+        <li class="mui-table-view-cell ">
+            <a class="mui-navigate-right" href="#"><i class="fa fa-search fa-fw fa-lg"></i>谁看过我</a>
+        </li>
+        <li class="mui-table-view-cell ">
+            <a class="mui-navigate-right" href="#"><i class="fa fa-clipboard fa-fw fa-lg"></i>求职诊断</a>
+        </li>
+    </ul>
+			<!--底部样式-->
+	<nav class="mui-bar mui-bar-tab">
+	    <a class="mui-tab-item " href="index.html">
+	        <span class="mui-icon mui-icon-home"></span>
+	        <span class="mui-tab-label">首页</span>
+	    </a>
+	    <a class="mui-tab-item" href="kecheng.html" >
+	        <span class="mui-icon mui-icon-chatboxes"></span>
+	        <span class="mui-tab-label">课程</span>
+	    </a>
+	    <a class="mui-tab-item" href="jianli.html">
+	        <span class="mui-icon mui-icon-compose"></span>
+	        <span class="mui-tab-label">简历</span>
+	    </a>
+	    <a class="mui-tab-item  mui-active" href="wode.html">
+	        <span class="mui-icon mui-icon-contact"></span>
+	        <span class="mui-tab-label">个人信息</span>
+	    </a>
+	</nav>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+    		mui("body").on('tap','a',function(){
+		window.top.location.href=this.href
+	});
+    </script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>
